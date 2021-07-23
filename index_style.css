@@ -107,21 +107,24 @@ li{text-align: left;}
 
 @media (orientation: landscape)
 {
+    .steps{margin: 1.5vw 0;}
+    #game-list li{margin-top: 1%;}
     #disclaimer{
         height: 60vh;
         min-height: 60vh;
         margin-top: 10vh;
     }
     #disclaimer h2{margin-bottom: 5vh;}
+    #close-index-info{margin: 5vw 0;}
 }
 
 @media (orientation: landscape) and (min-width: 1300px)
 {
     #close-index-info{
+        width: 20%;
         padding: 1%;
         font-size: 1.5rem;
     }
-    #close-index-info{width: 20%;}
 }
 
 ::-webkit-scrollbar{
