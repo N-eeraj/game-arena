@@ -22,6 +22,7 @@
     background-image: linear-gradient(rgb(0, 0, 75), rgb(0, 75, 255));
     overflow: scroll;
     transition: 0.3s;
+    transform: scale(0);
 }
 #index-info h1{
     font-family: "Fondamento";
@@ -54,3 +55,43 @@ li{text-align: left;}
     border: 1px solid #FFFC;
 }
 #disclaimer h2{font-family: "Fondamento";}
+
+#close-index-info{
+    width: 30vw;
+    margin-top: 5vh;
+    padding: 1.5%;
+    background-color: #FFF;
+    color: rgb(0, 75, 255);
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+
+@media (min-width: 720px)
+{
+    #index-info{font-size: 1.5rem;}
+    #close-index-info{font-size: 1.8rem;}
+}
+
+@media (orientation: landscape)
+{
+    #disclaimer{
+        height: 20vw;
+        min-height: 20vw;
+        margin-top: 10vh;
+        padding-top: 5%;
+    }
+    #disclaimer h2{margin-bottom: 5vh;}
+    #close-index-info{width: 20vw;}
+}
+
+@media (orientation: landscape) and (min-width: 1300px)
+{
+    #close-index-info{
+        padding: 1%;
+        font-size: 1.5rem;
+    }
+}
+
