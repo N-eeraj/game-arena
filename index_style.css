@@ -63,6 +63,9 @@ li{text-align: left;}
     margin: 5vh 0;
     box-sizing: border-box;
     padding: 7% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     border: 1px solid #FFFC;
 }
 #disclaimer h2{font-family: "Fondamento";}
@@ -105,13 +108,11 @@ li{text-align: left;}
 @media (orientation: landscape)
 {
     #disclaimer{
-        height: 20vw;
-        min-height: 20vw;
+        height: 60vh;
+        min-height: 60vh;
         margin-top: 10vh;
-        padding-top: 5%;
     }
     #disclaimer h2{margin-bottom: 5vh;}
-    #close-index-info{width: 20vw;}
 }
 
 @media (orientation: landscape) and (min-width: 1300px)
@@ -120,6 +121,7 @@ li{text-align: left;}
         padding: 1%;
         font-size: 1.5rem;
     }
+    #close-index-info{width: 20%;}
 }
 
 ::-webkit-scrollbar{
