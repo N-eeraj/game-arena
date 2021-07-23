@@ -60,16 +60,15 @@ li{text-align: left;}
     width: 75vw;
     height: 20vh;
     min-height: 20vh;
-    margin-top: 5vh;
+    margin: 5vh 0;
     box-sizing: border-box;
-    padding-top: 7%;
+    padding: 7% 0;
     border: 1px solid #FFFC;
 }
 #disclaimer h2{font-family: "Fondamento";}
 
 #close-index-info{
     width: 30vw;
-    margin-top: 5vh;
     padding: 1.5%;
     background-color: #FFF;
     color: rgb(0, 75, 255);
