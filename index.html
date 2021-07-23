@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="index_style.css">
 </head>
 <body>
+    <!-- home -->
+    <button class="info-btn" onclick="openIndexInfo()">i</button>
+
     <!-- info section -->
     <section id="index-info">
         <h1>How to Play?</h1>
@@ -44,9 +47,15 @@
         </div>
         <button id="close-index-info" onclick="closeIndexInfo()">Close</button>
     </section>
-    
-    <!-- home -->
-    <button class="info-btn" onclick="openIndexInfo()">i</button>
+
+    <h1 id="title">Game Arena</h1>
+
+    <!-- games section -->
+    <section id="game-section">
+        <div class="game-card"></div>
+        <div class="game-card"></div>
+        <div class="game-card"></div>
+    </section>
 </body>
 <script src="index_script.js"></script>
 </html>
