@@ -18,32 +18,16 @@
     <button class="icon-btn" id="bgm-btn" onclick="bgmToggle()"></button>
 
     <!-- home section -->
-    <section id="character-selection">
+    <section class="selection" id="character-selection">
 
-        <h1 id="char-selection-title">Character Selection</h1>
+        <h1 class="char-selection-title">Select Your Character</h1>
 
         <div id="char-list">
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
-            <button class="char-item"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
+            <button class="char-item" id="batman" onclick="userCharacter(this.id)"><img src="https://images.contentful.com/w3cthbuv8rf8/1cG86byAaGcQswMYk8EYco/dd37ccc71e89bdb8074d2d0fd2e4c2d7/untitled__18_.png" alt="Batman" class="char-img"></button>
+            <button class="char-item" id="superman" onclick="userCharacter(this.id)"><img src="https://1000logos.net/wp-content/uploads/2017/06/Superman-Logo-20112.png" alt="Superman" class="char-img"></button>
         </div>
+
+        <button class="round-btn" onclick="oppSelection()">Next</button>
     </section>
 
 </body>
