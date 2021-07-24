@@ -18,17 +18,26 @@ body{
     background-repeat: no-repeat;
 }
 
+
 audio{display: none;}
-#bgm-btn{
+.icon-btn{
     height: 5vh;
     width: 5vh;
     position: fixed;
     top: 5vw;
-    right: 5vw;
-    background-color: #FFF;
-    background-image: url("../Images/play.png");
-    background-size: 50%;
+    background-color: transparent;
+    border: 1px solid #CDCDCD;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
+}
+#home{
+    left: 5vw;
+    background-image: url("../Images/home.png");
+    background-size: 80%;
+}
+#bgm-btn{
+    right: 5vw;
+    background-image: url("../Images/play.png");
+    background-size: 60%;
 }
