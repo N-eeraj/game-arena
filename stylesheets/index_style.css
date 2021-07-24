@@ -120,7 +120,7 @@ li{text-align: left;}
 .game-card{
     width: 80vw;
     height: 30vh;
-    margin-top: 5vh;
+    margin: 3vh 0;
     background-color: #FFF;
     border-radius: 12px;
     box-shadow: 0 3px 6px 6px #0004;
@@ -176,6 +176,7 @@ li{text-align: left;}
     .game-card{
         width: 35vw;
         height: 30vw;
+        margin: 5vw 0;
     }
 }
 
@@ -197,7 +198,7 @@ li{text-align: left;}
         font-size: 3rem;
         transform: scale(0.6);
     }
-    #title{font-size: 5rem;}
+    #title{font-size: 7rem;}
     .game-card{
         transform: scale(0.75);
     }
