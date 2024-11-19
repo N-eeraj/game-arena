@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Tic Tac Toe",
+    "link": "/tic-tac-toe",
+    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "playerModes": {
+      "singlePlayer": true,
+      "multiplayer": false
+    },
+    "banner": "",
+    "tags": [
+      "tic tac toe"
+    ]
+  }
+]
