@@ -22,7 +22,7 @@ function RootLayout({ children }: {
         blinker.variable,
       )}>
         <Navbar />
-        <main className="lg:max-w-7xl mx-auto p-4">
+        <main className="relative">
           {children}
         </main>
       </body>

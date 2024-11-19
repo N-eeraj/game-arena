@@ -1,9 +1,11 @@
 import games from "@data/games.json"
+import Header from "./components/Header"
 import GameCard from "./components/GameCard"
 
 function Home() {
   return (
     <>
+      <Header />
       <h2>
         All Games
       </h2>
