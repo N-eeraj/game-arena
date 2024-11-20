@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Tic Tac Toe",
+    "banner": "https://i.ytimg.com/vi/swjapgscGIk/hqdefault.jpg",
+    "link": "/game/tic-tac-toe"
+  },
+  {
+    "name": "Rock Paper Scissors",
+    "banner": "https://img.freepik.com/free-vector/rock-paper-scissors-banner_107791-8387.jpg",
+    "link": "/game/rock-paper-scissors"
+  }
+]

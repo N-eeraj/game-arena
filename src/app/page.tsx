@@ -1,6 +1,6 @@
-import games from "@data/games.json"
 import Header from "./components/Header"
 import GameCard from "./components/GameCard"
+import games from "@data/games.json"
 
 function Home() {
   return (
