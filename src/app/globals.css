@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  cursor: url('/images/cursor.svg'), default;
+}
+
+
+::selection {
+  @apply bg-accent/60 text-foreground;
+}

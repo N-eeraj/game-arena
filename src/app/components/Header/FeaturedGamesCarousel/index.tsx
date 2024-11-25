@@ -12,9 +12,9 @@ import {
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 import { type CarouselApi } from "@/components/ui/carousel"
-import clsx from "clsx"
 import featuredGames from "@data/featuredGames.json"
 import Image from "next/image"
+import Pagination from "./Pagination"
 
 function FeaturedGamesCarousel() {
   const [api, setApi] = useState<CarouselApi>()
@@ -32,6 +32,10 @@ function FeaturedGamesCarousel() {
     })
   }, [api])
 
+  const handlePageSelect = (index: number) => {
+    api?.scrollTo(index)
+  }
+
   return (
     <Carousel
       setApi={setApi}
@@ -44,33 +48,28 @@ function FeaturedGamesCarousel() {
           delay: 3000,
         }),
       ]}
-    className="relative w-full lg:w-1/2">
+      className="relative w-full lg:w-1/2">
       <CarouselContent>
         {featuredGames.map(game => (
           <CarouselItem key={game.link}>
             <Link
               href={game.link}
-              className="relative block h-52 lg:h-96">
+              className="relative block h-56 sm:h-96 rounded-lg lg:rounded-r-none overflow-hidden">
               <Image
                 src={game.banner}
                 alt={game.name}
-                fill />
+                fill
+                priority
+                className="object-cover" />
             </Link>
           </CarouselItem>
         ))}
       </CarouselContent>
-      {count > 1 && (
-        <ul className="absolute bottom-2.5 left-1/2 flex gap-x-2 -translate-x-1/2">
-          {Array.from({ length: count }).map((_, index) => (
-            <li
-              key={index}
-              className={clsx(
-                "size-2 bg-foreground rounded-full drop-shadow-sm",
-                { "opacity-50": index !== current },
-              )} />
-          ))}
-        </ul>
-      )}
+
+      <Pagination
+        count={count}
+        current={current}
+        onPageSelect={handlePageSelect} />
     </Carousel>
   )
 }

@@ -6,7 +6,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: {
-    default: "Game Arena",
+    default: "Game Arena | Play All Your Favorite Mini Games & More, All in One Place!",
     template: "%s | Game Arena",
   },
 }
