@@ -9,9 +9,9 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/carousel"
+} from "@components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
-import { type CarouselApi } from "@/components/ui/carousel"
+import { type CarouselApi } from "@components/ui/carousel"
 import featuredGames from "@data/featuredGames.json"
 import Image from "next/image"
 import Pagination from "./Pagination"

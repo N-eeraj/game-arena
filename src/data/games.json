@@ -7,7 +7,72 @@
       "singlePlayer": true,
       "multiplayer": false
     },
-    "banner": "",
+    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "tags": [
+      "tic tac toe"
+    ]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "link": "/game/tic-tac-toe",
+    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "playerModes": {
+      "singlePlayer": true,
+      "multiplayer": false
+    },
+    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "tags": [
+      "tic tac toe"
+    ]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "link": "/game/tic-tac-toe",
+    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "playerModes": {
+      "singlePlayer": true,
+      "multiplayer": false
+    },
+    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "tags": [
+      "tic tac toe"
+    ]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "link": "/game/tic-tac-toe",
+    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "playerModes": {
+      "singlePlayer": true,
+      "multiplayer": false
+    },
+    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "tags": [
+      "tic tac toe"
+    ]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "link": "/game/tic-tac-toe",
+    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "playerModes": {
+      "singlePlayer": true,
+      "multiplayer": false
+    },
+    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "tags": [
+      "tic tac toe"
+    ]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "link": "/game/tic-tac-toe",
+    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "playerModes": {
+      "singlePlayer": true,
+      "multiplayer": false
+    },
+    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
     "tags": [
       "tic tac toe"
     ]
