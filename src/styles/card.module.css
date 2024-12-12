@@ -1,0 +1,8 @@
+.corner {
+  @apply absolute size-6 border-2 border-accent animate-pulse;
+}
+
+.hoverBeam {
+  @apply absolute inset-x-0 h-0.5 scale-x-[25%] mx-auto shadow-2xl bg-gradient-to-r from-transparent via-accent to-transparent transition duration-500;
+}
+
