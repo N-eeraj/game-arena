@@ -1,0 +1,7 @@
+.sideStripe {
+  @apply absolute top-0 w-1 h-full bg-accent/75 duration-700 animate-pulse;
+}
+
+.hoverBeam {
+  @apply absolute inset-x-0 h-0.5 scale-x-0 mx-auto shadow-2xl bg-gradient-to-r transition delay-75 animate-pulse;
+}

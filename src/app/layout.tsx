@@ -1,8 +1,9 @@
+import { PropsWithChildren } from "react"
 import { Metadata } from "next"
 import Navbar from "./components/Navbar"
 import { blinker, hemi } from "@hooks/useFonts"
 import clsx from "clsx"
-import "./globals.css"
+import "@styles/main.css"
 
 export const metadata: Metadata = {
   title: {
@@ -11,9 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-function RootLayout({ children }: {
-  children: React.ReactNode
-}) {
+function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <body className={clsx(

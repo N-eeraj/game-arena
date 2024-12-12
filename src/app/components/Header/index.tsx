@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Button from "@components/Button"
 import Sparkles from "./Sparkles"
 import FeaturedGamesCarousel from "./FeaturedGamesCarousel"
 
@@ -20,13 +21,10 @@ function Header() {
           </p>
 
           <Link href="/sign-up">
-            <button className="group mt-2 px-8 py-2 rounded-md relative bg-background text-sm hover:shadow-2xl hover:shadow-accent/[0.1] transition duration-200 border border-accent/40">
-              <div className="absolute inset-x-0 h-0.5 scale-x-50 group-hover:scale-x-100 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-accent to-transparent transition duration-500" />
-              <span className="relative group-hover:text-accent transition duration-400">
-                Sign Up
-              </span>
-            </button>
-            </Link>
+            <Button>
+              Sign Up
+            </Button>
+          </Link>
         </div>
 
         <FeaturedGamesCarousel />
