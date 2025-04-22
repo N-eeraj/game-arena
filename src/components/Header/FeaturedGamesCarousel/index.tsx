@@ -5,16 +5,18 @@ import {
   useState,
 } from "react"
 import Link from "next/link"
+import Image from "next/image"
+
+import Pagination from "@components/Header/FeaturedGamesCarousel/Pagination"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@components/ui/carousel"
+
 import Autoplay from "embla-carousel-autoplay"
-import { type CarouselApi } from "@components/ui/carousel"
+import type { CarouselApi } from "@components/ui/carousel"
 import featuredGames from "@data/featuredGames.json"
-import Image from "next/image"
-import Pagination from "./Pagination"
 
 function FeaturedGamesCarousel() {
   const [api, setApi] = useState<CarouselApi>()

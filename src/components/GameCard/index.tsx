@@ -5,11 +5,14 @@ import { GameCardType } from "@customTypes/common"
 
 function GameCard({ name, link, banner, description }: GameCardType) {
   return (
-    <Link href={link}>
+    <Link
+      href={link}
+      className="block h-full">
       <Card
         as="article"
         cornered
-        hoverBeam>
+        hoverBeam
+        className="h-full">
         <Image
           src={banner}
           alt={name}

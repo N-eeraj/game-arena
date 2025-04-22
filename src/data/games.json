@@ -5,7 +5,7 @@
     "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
     "playerModes": {
       "singlePlayer": true,
-      "multiplayer": false
+      "multiplayer": true
     },
     "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
     "tags": [
@@ -13,68 +13,29 @@
     ]
   },
   {
-    "name": "Tic Tac Toe",
-    "link": "/game/tic-tac-toe",
-    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "name": "Rock Paper Scissors",
+    "link": "/game/rock-paper-scissors",
+    "description": "Rock, Paper, Scissors is a two-player game where rock beats scissors, scissors beats paper, and paper beats rock.",
     "playerModes": {
       "singlePlayer": true,
-      "multiplayer": false
+      "multiplayer": true
     },
-    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "banner": "https://img.freepik.com/free-vector/rock-paper-scissors-banner_107791-8387.jpg",
     "tags": [
-      "tic tac toe"
+      "rock paper scissors"
     ]
   },
   {
-    "name": "Tic Tac Toe",
-    "link": "/game/tic-tac-toe",
-    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
+    "name": "Memory Tiles",
+    "link": "/game/memory-tiles",
+    "description": "Memory Tiles is a game where you take turns flipping tiles to find matching pairs.",
     "playerModes": {
       "singlePlayer": true,
       "multiplayer": false
     },
-    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
+    "banner": "https://img.freepik.com/free-vector/hand-drawn-memory-game-card_23-2150138540.jpg",
     "tags": [
-      "tic tac toe"
-    ]
-  },
-  {
-    "name": "Tic Tac Toe",
-    "link": "/game/tic-tac-toe",
-    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
-    "playerModes": {
-      "singlePlayer": true,
-      "multiplayer": false
-    },
-    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
-    "tags": [
-      "tic tac toe"
-    ]
-  },
-  {
-    "name": "Tic Tac Toe",
-    "link": "/game/tic-tac-toe",
-    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
-    "playerModes": {
-      "singlePlayer": true,
-      "multiplayer": false
-    },
-    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
-    "tags": [
-      "tic tac toe"
-    ]
-  },
-  {
-    "name": "Tic Tac Toe",
-    "link": "/game/tic-tac-toe",
-    "description": "A simple yet strategic two-player game where players take turns marking Xs and Os on a 3x3 grid to get three in a row.",
-    "playerModes": {
-      "singlePlayer": true,
-      "multiplayer": false
-    },
-    "banner": "https://akm-img-a-in.tosshub.com/app/at-app/app_config_imp/gamelist/game_thumbnail/horizontal/TicTacToe_Banner.png",
-    "tags": [
-      "tic tac toe"
+      "memory tiles"
     ]
   }
 ]

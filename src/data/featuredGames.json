@@ -1,20 +1,5 @@
 [
   {
-    "name": "Test-0",
-    "banner": "https://cdn.gamerbraves.com/2023/11/RAID-Shadow-Legends-Banner-01.jpg",
-    "link": "/game/test-0"
-  },
-  {
-    "name": "Test-1",
-    "banner": "https://thebackbuffer.com/wp-content/uploads/2020/05/ciash-of-clans23.jpg",
-    "link": "/game/test-1"
-  },
-  {
-    "name": "Test-2",
-    "banner": "https://lh3.googleusercontent.com/GYlh8Kx4nAGYky-7TlvrSo-RaU1xoOGgyIZiMoSk9h9sAkAu6MreRGw94P1GrX5GAI5vXrCRJ_AGBXSbHQ2E8do-BDHSKs0hPnAFQiXoSYmKlg=s2400-rj",
-    "link": "/game/test-2"
-  },
-  {
     "name": "Tic Tac Toe",
     "banner": "https://i.ytimg.com/vi/swjapgscGIk/hqdefault.jpg",
     "link": "/game/tic-tac-toe"
@@ -23,5 +8,10 @@
     "name": "Rock Paper Scissors",
     "banner": "https://img.freepik.com/free-vector/rock-paper-scissors-banner_107791-8387.jpg",
     "link": "/game/rock-paper-scissors"
+  },
+  {
+    "name": "Memory Tiles",
+    "banner": "https://img.freepik.com/free-vector/hand-drawn-memory-game-card_23-2150138540.jpg",
+    "link": "/game/memory-tiles"
   }
 ]

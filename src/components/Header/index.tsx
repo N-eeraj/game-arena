@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Button from "@components/Button"
-import Sparkles from "./Sparkles"
-import FeaturedGamesCarousel from "./FeaturedGamesCarousel"
+import Sparkles from "@components/Header/Sparkles"
+import FeaturedGamesCarousel from "@components/Header/FeaturedGamesCarousel"
 
 function Header() {
   return (

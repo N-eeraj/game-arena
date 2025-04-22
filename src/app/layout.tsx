@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react"
 import { Metadata } from "next"
-import Navbar from "./components/Navbar"
+import Navbar from "@components/Navbar"
 import { blinker, hemi } from "@hooks/useFonts"
 import clsx from "clsx"
 import "@styles/main.css"

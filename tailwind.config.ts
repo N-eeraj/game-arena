@@ -23,8 +23,8 @@ const config: Config = {
         accent: "#ac1236",
       },
       fontFamily: {
-        hemi: ['var(--font-hemi-head)'],
-        blinker: ['var(--font-blinker)'],
+        hemi: ["var(--font-hemi-head)"],
+        blinker: ["var(--font-blinker)"],
       },
       keyframes: {
         "accordion-down": {
