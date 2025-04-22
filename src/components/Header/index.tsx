@@ -12,7 +12,7 @@ function Header() {
         <div className="flex flex-col items-start gap-y-1 lg:gap-y-2 lg:w-5/12">
           <h2 className="font-hemi text-3xl lg:text-5xl">
             Play All Your Favorite Mini Games & More,&nbsp;
-            <span className="pl-2 pr-4 text-accent">
+            <span className="pl-2 pr-4 text-primary">
               All in One Place!
             </span>
           </h2>

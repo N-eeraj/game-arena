@@ -20,7 +20,7 @@ function GameCard({ name, link, banner, description }: GameCardType) {
           height={120}
           style={{ height: "auto" }}
           className="w-full rounded-md" />
-        <h3 className="mt-2 group-hover:text-accent font-hemi text-lg duration-100">
+        <h3 className="mt-2 group-hover:text-primary font-hemi text-lg duration-100">
           {name}
         </h3>
         <p className="line-clamp-3 opacity-70 duration-100">

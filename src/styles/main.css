@@ -1,12 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-html {
-  cursor: url("/images/cursor.svg"), default;
+:root {
+  --background: hsl(300, 6%, 7%);
+  --foreground: hsl(340, 11%, 79%); 
+  --card: hsl(300, 6%, 7%);
+  --card-foreground: hsl(340, 11%, 79%);
+  --popover: hsl(300, 6%, 7%);
+  --popover-foreground: hsl(340, 11%, 79%);
+  --primary: hsl(346, 81%, 37%);
+  --primary-foreground: hsl(340, 11%, 79%);
+  --secondary: hsl(346, 81%, 37%);
+  --secondary-foreground: hsl(340, 11%, 79%);
+  --muted: hsl(346, 81%, 25%);
+  --muted-foreground: hsl(340, 11%, 79%);
+  --accent: hsl(346, 81%, 45%);
+  --accent-foreground: hsl(340, 11%, 79%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(340, 11%, 79%);
+  --border: hsl(340, 11%, 40%);
+  --input: hsl(340, 11%, 40%);
+  --ring: hsl(340, 11%, 79%);
+  --radius: 0.5rem;
 }
 
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-radius: var(--radius);
+  --font-hemi: var(--font-hemi);
+  --font-blinker: var(--font-blinker);
+}
 
-::selection {
-  @apply bg-accent/60 text-foreground;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    cursor: url("/images/cursor.svg"), default;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    @apply bg-accent/60 text-foreground;
+  }
 }

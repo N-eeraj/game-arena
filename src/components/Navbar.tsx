@@ -6,7 +6,7 @@ function Navbar() {
       <Link
         href="/"
         className="group inline-block w-fit">
-        <h1 className="text-accent text-4xl font-hemi group-hover:brightness-110">
+        <h1 className="text-primary text-4xl font-hemi group-hover:brightness-110">
           Game Arena
         </h1>
       </Link>

@@ -3,7 +3,7 @@ import { Blinker } from "next/font/google"
 
 export const hemi = localFont({
   src: "../assets/font/hemi-head.otf",
-  variable: "--font-hemi-head",
+  variable: "--font-hemi",
 })
 
 export const blinker = Blinker({

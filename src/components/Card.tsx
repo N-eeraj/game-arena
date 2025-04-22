@@ -4,7 +4,7 @@ import type {
   ElementType,
 } from "react"
 import clsx from "clsx"
-import styles from "@styles/card.module.css"
+// import styles from "@styles/card.module.css"
 
 interface CardProps<Element extends ElementType> {
   as?: Element
@@ -37,11 +37,11 @@ function Card<Element extends ElementType>({ as, children, cornered = false, hov
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
           <div className={clsx(
             "-top-px group-hover:scale-x-150",
-            styles.hoverBeam,
+            "absolute inset-x-0 h-0.5 scale-x-[25%] mx-auto shadow-2xl bg-gradient-to-r from-transparent via-accent to-transparent transition duration-500",
           )} />
           <div className={clsx(
             "-bottom-px group-hover:scale-x-150",
-            styles.hoverBeam,
+            "absolute inset-x-0 h-0.5 scale-x-[25%] mx-auto shadow-2xl bg-gradient-to-r from-transparent via-accent to-transparent transition duration-500",
           )} />
         </div>
       )}
@@ -51,7 +51,10 @@ function Card<Element extends ElementType>({ as, children, cornered = false, hov
           {corners.map((corner, index) => (
             <div
               key={index}
-              className={clsx(corner, styles.corner)} />
+              className={clsx(
+                corner,
+                "absolute size-6 border-2 border-accent animate-pulse"
+              )} />
           ))}
         </>
       )}
