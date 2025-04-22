@@ -2,7 +2,7 @@ import localFont from "next/font/local"
 import { Blinker } from "next/font/google"
 
 export const hemi = localFont({
-  src: "../../assets/font/hemi-head.otf",
+  src: "../assets/font/hemi-head.otf",
   variable: "--font-hemi-head",
 })
 

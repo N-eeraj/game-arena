@@ -1,4 +1,3 @@
-import { MouseEventHandler } from "react"
 import clsx from "clsx"
 
 function Pagination({ count, current, onPageSelect }: {
